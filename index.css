@@ -1,0 +1,209 @@
+/**{
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    display: block;
+}
+.bar input{
+    align-items: center;
+    display:flex;
+    width: 35%;
+    height: 130px;
+    font-size: x-large;
+    margin-top: 1%;
+}
+
+.card{
+    padding:2%;
+    display:inline-block;
+}
+.button{
+    
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    color: blue;
+    background-color: yellow;
+    font-size: xx-large;
+
+}
+
+.button2{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    color: blue;
+    background-color: yellow;
+    font-size: xx-large;
+}
+.button:hover{
+    background-color: blue;
+    color: yellow;
+}
+.button2:hover{
+    background-color: blue;
+    color: yellow;
+}
+
+/* For Desktop View 
+@media screen and (min-width: 1024px) {
+    .bar input{
+        width: 35%;
+        height: 130px;
+        font-size: x-large;
+        margin-top: 1%;
+    }
+    .card{
+        padding: 5%;
+        display: inline-block;
+    
+    }
+    
+    .button{
+        align-items: center;
+        display:inline-block;
+      
+        align-items: center;
+        position: absolute;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100%;
+        color: blue;
+        background-color: yellow;
+        font-size: xx-large;
+    
+    }
+    .sayi{
+        padding: 10%;
+        margin: 15%;
+    }
+    .button2{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100%;
+        color: blue;
+        background-color: yellow;
+        font-size: xx-large;
+    }
+}
+/*
+/* For Tablet View */
+/*
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#result{
+    margin: auto;
+   
+    
+    font-size: x-large;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: flex;
+}
+/* .grub-1{
+    /* transform: translate(+20%,0);*/
+   /* margin-bottom: 3%;
+    display: flex;
+}
+.grub-2{
+    /* transform: translate(+20%,0);*/
+    /*margin-bottom: 3%;
+    display: flex;
+}
+.grub-3{
+    /*transform: translate(+20%,0);*/
+    /*margin-bottom: 3%;
+    display: flex;
+}
+.grub-0{
+    transform: translate(+40%,0);
+    margin-bottom: 3%;
+} */
+.container{
+    display: grid;
+    grid-column: auto;
+    margin: auto;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+
+
+
+
+/* .grup-1{
+    display: grid;
+    grid-template-columns: auto;
+    
+}  */
+
+
+.islemler {
+    text-align: center;
+    gap: 10%;
+}
+.button{
+    
+    gap: 30%;
+    border-radius: 70%;
+    color: blue;
+    background-color: yellow;
+    font-size: 50px;
+    
+    
+
+}
+
+.button2{
+    border-radius: 70%;
+    color: blue;
+    background-color: yellow;
+    font-size: 50px;
+}
+.button:hover{
+    background-color: blue;
+    color: yellow;
+}
+.button2:hover{
+    background-color: blue;
+    color: yellow;
+}
+@media screen and (min-width: 1024px) {
+    #result{
+        width: 50%;
+        height: 200px;
+    }
+} 
+@media screen and (max-width: 1024px) {
+    #result{
+        width: 50%;
+        height: 200px;
+    }
+  }
+  
+
